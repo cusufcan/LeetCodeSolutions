@@ -1,5 +1,3 @@
-package org.example
-
 fun twoSum(nums: IntArray, target: Int): IntArray {
     val resMap = mutableMapOf<Int, Int>()
     for (i in nums.indices) {
